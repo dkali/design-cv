@@ -1,11 +1,12 @@
 import { A } from "@solidjs/router";
 import Welcome from "~/components/Welcome";
+import Services from "~/components/Services";
 
 export default function Home() {
   return (
     <main class="flex flex-col items-center bg-white text-black">
       <Welcome />
-      <div>Services</div>
+      <Services />
       <div>About me</div>
       <div>Recent projects</div>
       <div>Modernity</div>
