@@ -1,5 +1,47 @@
-a:hover {
-  
-  background-color: yellow;
-  font-size: 18px;
+.button_tr {
+  appearance: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: auto;
+  outline: 1px;
+  outline-style: solid;
+  border-radius: 20px;
+  padding: 0 16px;
+  color: white;
+  font-size: 16px;
+  line-height: 0;
+  transition: 250ms background-color;
+}
+.button_tr:hover {
+  background-color: white;
+  color: black;
+  outline-color: white;
+}
+.button_tr:active {
+  color: white;
+  background-color: transparent;
+}
+
+.button_red {
+  appearance: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: auto;
+  background-color: crimson;
+  border-radius: 20px;
+  padding: 0 16px;
+  color: white;
+  font-size: 16px;
+  line-height: 0;
+  transition: 250ms background-color;
+}
+.button_red:hover {
+  background-color: #e13759;
+}
+.button_red:active {
+  background-color: crimson;
 }
