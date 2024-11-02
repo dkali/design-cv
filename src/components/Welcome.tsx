@@ -3,7 +3,7 @@ import "./Welcome.css";
 export default function Welcome() {
 
   return (
-    <div class="bg-cover bg-center w-full h-screen text-white" style="background-image: url(welcome_2.jpg)">
+    <div class="bg-cover bg-center w-full h-screen text-white mb-14 relative" style="background-image: url(welcome_2.jpg)">
       <div class="flex flex-row justify-end gap-4 pt-24 pr-48 items-center">
       {[
         ['About me', '/#about'],

@@ -20,8 +20,7 @@ export default function Services() {
   });
   
   return (
-    // <div class="flex flex-row gap-8 ml-10 mr-10 flex-wrap">
-    <div class={isHalfScreen() ? "flex flex-row gap-8 ml-10 mr-10 flex-wrap" : "grid grid-cols-3 gap-8 ml-10 mr-10"}>
+    <div class={isHalfScreen() ? "flex flex-row gap-8 ml-20 mr-20 flex-wrap" : "grid grid-cols-3 gap-8 ml-20 mr-20 mb-20"}>
       {/* column 1 */}
       <div class="flex flex-col gap-y-3">
         <div class="text-red-500 font-bold text-lg">01/</div>
