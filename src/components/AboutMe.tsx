@@ -1,10 +1,10 @@
 export default function AboutMe() {
   return (
-    <div class="relative mb-20">
+    <div class="relative">
 
       <div class={"grid grid-cols-2 gap-8 mx-20"}>
         {/* column 1 */}
-        <div class="flex flex-col gap-y-3">
+        <div class="flex flex-col gap-y-4">
           <div class="text-red-500 font-bold text-lg">02/</div>
           <div class="text-3xl font-mono">About Me</div>
           <div class="text-lg">Hi, I'm Elena and I'm an interior designer in New York. I carefully create spaces it's a real pleasure to live in.</div>

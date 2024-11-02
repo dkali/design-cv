@@ -2,6 +2,7 @@ import { A } from "@solidjs/router";
 import Welcome from "~/components/Welcome";
 import Services from "~/components/Services";
 import AboutMe from "~/components/AboutMe";
+import RecentProjects from "~/components/RecentProjects";
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
       <Welcome />
       <Services />
       <AboutMe />
-      <div>Recent projects</div>
+      <RecentProjects />
       <div>Modernity</div>
       <div>Why choose me</div>
       <div>Gallery</div>

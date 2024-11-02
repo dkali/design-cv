@@ -1,3 +1,7 @@
+.bg-dark {
+  background-color: rgb(33 33 33);
+}
+
 .button_tr {
   appearance: none;
   display: inline-flex;
