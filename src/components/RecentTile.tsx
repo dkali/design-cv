@@ -12,7 +12,7 @@ export default function RecentTile(props: RecentTileProps) {
       <p class="text-gray-400 font-mono">{props.description}</p>
       <a class="text-white flex flex-row items-center">
         LEARN MORE
-        <img class="max-h-8" src="/red_arrow.svg" />
+        <img class="max-h-8" src="/icons/red_arrow.svg" />
       </a>
     </div>
   );

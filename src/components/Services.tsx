@@ -32,14 +32,14 @@ export default function Services() {
 
       {/* column 2 */}
       <div class="flex flex-col gap-y-3">
-        <ServiceTile icon="/bedroom.svg" title="Bedroom" message="A comfortable space for your relaxation"/>
-        <ServiceTile icon="/kitchen.svg" title="Kitchen" message="Ergonomics and convenience"/>
+        <ServiceTile icon="/icons/bedroom.svg" title="Bedroom" message="A comfortable space for your relaxation"/>
+        <ServiceTile icon="/icons/kitchen.svg" title="Kitchen" message="Ergonomics and convenience"/>
       </div>
       
       {/* column 3 */}
       <div class="flex flex-col gap-y-3">
-        <ServiceTile icon="/living_room.svg" title="Living Room" message="Enjoy cozy evenings with friends and family"/>
-        <ServiceTile icon="/bathroom.svg" title="Bathroom" message="Everything you need for your home retreat"/>
+        <ServiceTile icon="/icons/living_room.svg" title="Living Room" message="Enjoy cozy evenings with friends and family"/>
+        <ServiceTile icon="/icons/bathroom.svg" title="Bathroom" message="Everything you need for your home retreat"/>
       </div>
     </div>
   );
