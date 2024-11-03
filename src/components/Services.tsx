@@ -1,3 +1,4 @@
+import RedStripe from "./RedStripe";
 import ServiceTile from "./ServiceTile"
 import { createSignal, onMount, onCleanup } from "solid-js";
 
@@ -20,13 +21,13 @@ export default function Services() {
   });
   
   return (
-    <div class={isHalfScreen() ? "flex flex-row gap-8 ml-20 mr-20 flex-wrap" : "grid grid-cols-3 gap-8 ml-20 mr-20 mb-20"}>
+    <div class={isHalfScreen() ? "flex flex-row gap-8 ml-20 mr-20 flex-wrap pt-10" : "grid grid-cols-3 gap-8 ml-20 mr-20 mb-20 pt-10"} id="services">
       {/* column 1 */}
       <div class="flex flex-col gap-y-3">
         <div class="text-red-500 font-bold text-lg">01/</div>
         <div class="text-3xl font-mono">Services</div>
         <div class="text-lg">My main goal is to make every square foot in your home beautiful and functional.</div>
-        <div class="h-1 w-20 bg-red-500"></div>
+        <RedStripe />
       </div>
 
       {/* column 2 */}

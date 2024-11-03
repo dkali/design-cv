@@ -6,15 +6,15 @@ export default function Welcome() {
     <div class="bg-cover bg-center w-full h-screen text-white mb-14 relative" style="background-image: url(welcome_2.jpg)">
       <div class="flex flex-row justify-end gap-4 pt-24 pr-48 items-center">
       {[
-        ['About me', '/#about'],
-        ['Services', '/#services'],
-        ['Pricing', '/#pricing'],
-        ['Testimonials', '/#testimonails'],
-        ['Contact us', '/#contacts'],
+        ['About me', '#about'],
+        ['Services', '#services'],
+        ['Pricing', '#pricing'],
+        ['Testimonials', '#testimonails'],
+        ['Contact us', '#contacts'],
       ].map(([title, href_link]) => (
         <a href={href_link} class="hover:text-red-500">{title}</a>
       ))}
-        <a class="button_tr" href="/#portfolio">Portfolio</a>
+        <a class="button_tr" href="#portfolio">Portfolio</a>
       </div>
 
       <div class="flex flex-col items-center space-y-6 mt-36">
