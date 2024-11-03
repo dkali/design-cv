@@ -3,6 +3,8 @@ import Welcome from "~/components/Welcome";
 import Services from "~/components/Services";
 import AboutMe from "~/components/AboutMe";
 import RecentProjects from "~/components/RecentProjects";
+import Qoute from "~/components/Quote";
+import Contacts from "~/components/Contacts";
 
 export default function Home() {
   return (
@@ -20,8 +22,8 @@ export default function Home() {
       <div>Testimonials</div>
       <div>Partners</div>
       <div>FAQ</div>
-      <div>Contact me</div>
-      <div>Contact details</div>
+      <Qoute />
+      <Contacts />
       <div>Footer</div>
     </main>
   );
