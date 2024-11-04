@@ -9,7 +9,6 @@ export default function Welcome() {
         ['About me', '#about'],
         ['Services', '#services'],
         ['Pricing', '#pricing'],
-        ['Testimonials', '#testimonails'],
         ['Contact us', '#contacts'],
       ].map(([title, href_link]) => (
         <a href={href_link} class="hover:text-red-500">{title}</a>
@@ -20,7 +19,7 @@ export default function Welcome() {
       <div class="flex flex-col items-center space-y-6 mt-36">
         <div class="text-7xl">Elena Kalinnikova</div>
         <div class="text-xl">Professional interior designer in Dublin</div>
-        <a class="button_red shadow-lg shadow-red-500/60" href="#qoute">Request a quote</a>
+        <a class="button_red shadow-lg shadow-red-500/60" href="#quote">Request a quote</a>
       </div>
 
       <div class="bg-cover bg-center w-full h-1/4 absolute bottom-0 left-0" style="background-image: url(footer_welcome.png)"></div>

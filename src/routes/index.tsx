@@ -13,18 +13,9 @@ export default function Home() {
       <Services />
       <AboutMe />
       <RecentProjects />
-      <div>Modernity</div>
-      <div>Why choose me</div>
-      <div>Gallery</div>
       <div>Pricing</div>
-      <div>Promo video</div>
-      <div>Cooperation options</div>
-      <div>Testimonials</div>
-      <div>Partners</div>
-      <div>FAQ</div>
       <Qoute />
       <Contacts />
-      <div>Footer</div>
     </main>
   );
 }
